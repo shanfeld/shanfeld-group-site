@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shanfeld Group, Inc.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="logo">
+      <!-- Updated Logo SVG -->
+      <a href="#home">
+        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="95" fill="#0E3D30" stroke="#C6A86D" stroke-width="10"/>
+          <text x="50%" y="55%" text-anchor="middle" fill="#F5F5F5" font-family="Montserrat, sans-serif" font-size="72" font-weight="bold">SG</text>
+        </svg>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#approach">Investment Approach</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#investors">Investor Relations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Homepage Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Unlocking Value in Overlooked Assets. Transforming Risk into Opportunity.</h1>
+      <p>$XXX Million in Assets Under Management | XXM Sq. Ft. of Repositioned Assets | X% Average IRR</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Shanfeld Group, Inc.</h2>
+      <p>
+        Shanfeld Group, Inc. is a Los Angeles-based real estate investment, development, and brokerage firm specializing in Value-Add and Opportunistic strategies. We focus on underutilized, distressed, and over-leveraged assets, leveraging deep market insights, structured financial analysis, and disciplined execution to generate superior risk-adjusted returns.
+      </p>
+      <p>
+        Rooted in strategic foresight, operational excellence, and a contrarian yet disciplined approach, we thrive on identifying and capitalizing on market dislocations and inefficiencies. Our commitment remains steadfast: to transform overlooked assets into high-performing investments, creating sustainable value for our partners and stakeholders.
+      </p>
+    </div>
+  </section>
+
+  <!-- Investment Approach Section -->
+  <section id="approach">
+    <div class="container">
+      <h2>Investment Approach</h2>
+      <div class="strategy">
+        <h3>Value-Add Strategy</h3>
+        <ul>
+          <li>Target underperforming assets in strong markets</li>
+          <li>Execute physical renovations, lease restructuring, and capital improvements</li>
+          <li>Focus on increasing NOI, occupancy, and asset appreciation</li>
+        </ul>
+        <p><strong>Example:</strong> Acquiring a well-located, undercapitalized multifamily property with below-market rents and significant deferred maintenance. By executing a renovation strategy and re-leasing at market rates, we increase cash flow and asset value.</p>
+      </div>
+      <div class="strategy">
+        <h3>Opportunistic Strategy</h3>
+        <ul>
+          <li>Focus on distressed assets, development opportunities, and financial restructuring</li>
+          <li>Leverage high-value repositioning, adaptive reuse, and creative financing structures</li>
+          <li>Target assets with low-to-no cash flow at acquisition but significant upside potential</li>
+        </ul>
+        <p><strong>Example:</strong> Acquiring a distressed office property in a prime location at a discount due to high vacancy. By converting it into a modern mixed-use asset and securing long-term anchor tenants, we unlock substantial value.</p>
+      </div>
+      <div class="strategy">
+        <h3>Alternative Asset Expansion</h3>
+        <p>We are actively expanding into alternative asset investments, leveraging our expertise to identify compelling opportunities in emerging sectors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Our Portfolio</h2>
+      <p>Shanfeld Group specializes in transforming undervalued real estate into high-performing assets. Our portfolio spans multifamily, office, NNN properties, and alternative investments across California.</p>
+      <!-- A simple placeholder for portfolio items -->
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <h3>Property Name</h3>
+          <p>Location | Investment Type | Brief Description</p>
+        </div>
+        <!-- Additional portfolio items can be added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Investor Relations Section -->
+  <section id="investors">
+    <div class="container">
+      <h2>Investor Relations</h2>
+      <p>For inquiries, partnerships, and further information, please reach out to us using the contact form below.</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shanfeld Group, Inc. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
